@@ -234,6 +234,7 @@ const JavascriptFoundationsNotes = () => {
             <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               Example:
               <br />
+              <div className="overflow-x-auto">
               <pre>
                 {`
  const arr = [1, 2, 3, 4, 5];
@@ -243,6 +244,8 @@ const JavascriptFoundationsNotes = () => {
  arr.forEach(print);
   `}
               </pre>
+              </div>
+    
               Output:
               <br />
               1
@@ -274,6 +277,7 @@ const JavascriptFoundationsNotes = () => {
               <br />
               <br />
               Example :
+              <div className="overflow-x-auto">
               <pre>
                 {`
 class Animal {
@@ -291,6 +295,8 @@ let dog = new Animal("Dog", "bark"); //Creating an object
 dog.speak(); 
 `}
               </pre>
+              </div>
+            
 
               <br />
               Output : hi there bark
