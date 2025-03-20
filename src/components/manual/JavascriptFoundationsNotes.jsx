@@ -24,10 +24,10 @@ const JavascriptFoundationsNotes = () => {
         <Accordion type="single" collapsible className="w-full">
           {/* Q - 1 */}
           <AccordionItem value="item-1">
-            <AccordionTrigger className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
               How do Computers Work?
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               All apps like Zoom, WhatsApp, Gallery, and Video are stored in the
               SSD (hard drive). But when we run something like a Zoom meeting,
               it runs in RAM. The main question is—what happens in RAM?
@@ -38,10 +38,10 @@ const JavascriptFoundationsNotes = () => {
 
           {/* Q - 2 */}
           <AccordionItem value="item-2">
-            <AccordionTrigger className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
               What is a Compiler?
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               Compilers convert high-level code into 0s and 1s (machine
               language), which goes into RAM, allowing the machine to understand
               it.
@@ -50,10 +50,10 @@ const JavascriptFoundationsNotes = () => {
 
           {/* Q - 3 */}
           <AccordionItem value="item-3">
-            <AccordionTrigger className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
               Why Do We Need Languages?
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               We need languages because developers are very dumb , they can't
               understand machine language, that's why we need languages.
               Languages make it easier for us to communicate with machines.
@@ -62,10 +62,10 @@ const JavascriptFoundationsNotes = () => {
 
           {/* Q - 4 */}
           <AccordionItem value="item-4">
-            <AccordionTrigger className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
               Interpreted Vs Compiled Languages
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               Compilers :
               <br />
               1) First need to Compile , then need to run
@@ -85,10 +85,10 @@ const JavascriptFoundationsNotes = () => {
 
           {/* Q - 5 */}
           <AccordionItem value="item-5">
-            <AccordionTrigger className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
               Why JS is better than Other Languages?
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               1) Browsers can only understand HTML, CSS, JS
               <br />
               2) Using Node.js , Js can also be used in Backend Development
@@ -97,10 +97,10 @@ const JavascriptFoundationsNotes = () => {
 
           {/* Q - 6 */}
           <AccordionItem value="item-6">
-            <AccordionTrigger className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
               Static Vs Loosely Type Languages
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               Static : Variables have fixed types, ex : C++, Java
               <br />
               Loosely : Variables can hold different types, ex : JS
@@ -109,20 +109,20 @@ const JavascriptFoundationsNotes = () => {
 
           {/* Q - 7 */}
           <AccordionItem value="item-7">
-            <AccordionTrigger className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
               Single Threaded Nature of JS
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               JS runs line by line and only one line runs at a time
             </AccordionContent>
           </AccordionItem>
 
           {/* Q - 8 */}
           <AccordionItem value="item-8">
-            <AccordionTrigger className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
               Find length of String?
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               const str = "Arzaid"
               <br />
               console.log(str.length);
@@ -133,10 +133,10 @@ const JavascriptFoundationsNotes = () => {
 
           {/* Q - 9 */}
           <AccordionItem value="item-9">
-            <AccordionTrigger className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
               Find the Index of a string/character?
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               const str = "Mohd Arzaid Arzaid"
               <br />
               const target = "Arzaid"
@@ -149,10 +149,10 @@ const JavascriptFoundationsNotes = () => {
 
           {/* Q - 10 */}
           <AccordionItem value="item-10">
-            <AccordionTrigger className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
               What is slice?
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               const str = "Hello World"
               <br />
               console.log(str.slice(2, 5));
@@ -163,10 +163,10 @@ const JavascriptFoundationsNotes = () => {
 
           {/* Q - 11 */}
           <AccordionItem value="item-11">
-            <AccordionTrigger className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
               What is substr?
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               const str = "Hello World"
               <br />
               console.log(str.substr(2, 5));
@@ -177,10 +177,10 @@ const JavascriptFoundationsNotes = () => {
 
           {/* Q - 12 */}
           <AccordionItem value="item-12">
-            <AccordionTrigger className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
               What is split?
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               const str = "Hello,World"
               <br />
               console.log(str.split(","));
@@ -191,10 +191,10 @@ const JavascriptFoundationsNotes = () => {
 
           {/* Q - 13 */}
           <AccordionItem value="item-13">
-            <AccordionTrigger className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
               Push , Pop , Shift , Unshift ?
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               const arr = [1, 2, 3, 4, 5]
               <br />
               arr.push(6)
@@ -228,10 +228,10 @@ const JavascriptFoundationsNotes = () => {
 
           {/* Q - 14 */}
           <AccordionItem value="item-14">
-            <AccordionTrigger className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
               For Each Loop ?
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[16px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               Example:
               <br />
               <pre>
