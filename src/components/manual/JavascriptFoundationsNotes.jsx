@@ -264,7 +264,37 @@ const JavascriptFoundationsNotes = () => {
               Class in JS ?
             </AccordionTrigger>
             <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
-            A class is a blueprint that defines a reusable structure, which can be used in multiple places.
+              A class is a blueprint that defines a reusable structure, which can be used in multiple places.
+              <br />
+              Class has two things :
+              <br />
+              1) Properties (attributes)
+              <br />
+              2) Methods (functions)
+              <br />
+              <br />
+              Example :
+              <pre>
+                {`
+class Animal {
+  constructor(name, speaks) {
+    this.name = name;
+    this.speaks = speaks;
+  }
+
+  speak() {
+    console.log("Hi there, " + this.speaks);
+  }
+}
+
+let dog = new Animal("Dog", "bark"); //Creating an object
+dog.speak(); 
+`}
+              </pre>
+
+              <br />
+              Output : hi there bark
+
             </AccordionContent>
           </AccordionItem>
 
