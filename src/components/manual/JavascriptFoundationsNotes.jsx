@@ -20,7 +20,7 @@ const JavascriptFoundationsNotes = () => {
       </p>
 
       {/* Accordion of Q/A */}
-      <div className="w-full max-w-[1104px] mt-[12px] md:mt-[24px] mx-auto">
+      <div className="w-full max-w-[1104px] mt-[8px] md:mt-[24px] mx-auto">
         <Accordion type="single" collapsible className="w-full">
           {/* Q - 1 */}
           <AccordionItem value="item-1">
@@ -257,6 +257,17 @@ const JavascriptFoundationsNotes = () => {
               <br />{" "}
             </AccordionContent>
           </AccordionItem>
+
+          {/* Q - 15 */}
+          <AccordionItem value="item-15">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+              Class in JS ?
+            </AccordionTrigger>
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            A class is a blueprint that defines a reusable structure, which can be used in multiple places.
+            </AccordionContent>
+          </AccordionItem>
+
           {/* The End */}
         </Accordion>
       </div>
