@@ -86,7 +86,7 @@ const JavascriptFoundationsNotes = () => {
           {/* Q - 5 */}
           <AccordionItem value="item-5">
             <AccordionTrigger className="font-geist text-[17px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
-              Why JS is better than Other Languages?
+              Why JS is better than Other Lang?
             </AccordionTrigger>
             <AccordionContent className="font-geist text-[17px] md:text-[18px] tracking-wider text-[#5e5f6e]">
               1) Browsers can only understand HTML, CSS, JS
