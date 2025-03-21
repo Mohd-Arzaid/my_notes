@@ -304,6 +304,36 @@ dog.speak();
             </AccordionContent>
           </AccordionItem>
 
+     {/* Q - 16 */}
+     <AccordionItem value="item-16">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            What is Callback Function?
+            </AccordionTrigger>
+
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+             A Callback Function is a function which is passed as an argument to another function
+          
+             <div className="overflow-x-auto">
+              <pre>
+              {`
+function square(n){
+   return n*n;
+}
+
+function sumOfSomething(a,b,callback){
+   const val1 = callback(a);
+   const val2 = callback(b);
+   return val1 + val2;
+}
+
+const ans = sumOfSomething(2,2,square);
+console.log(ans)
+              `}
+             </pre>
+             </div>
+            </AccordionContent>
+          </AccordionItem>
+
           {/* The End */}
         </Accordion>
       </div>
