@@ -334,7 +334,7 @@ console.log(ans)
           {/* Q - 17 */}
           <AccordionItem value="item-17">
             <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
-              Asynchronous function vs Synchronous function?
+              Async function vs Sync function?
             </AccordionTrigger>
 
             <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
@@ -359,7 +359,7 @@ console.log(ans)
           {/* Q - 18 */}
           <AccordionItem value="item-18">
             <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
-            How does JavaScript handle Asynchronous operations?
+            How does JS handle Async functions?
             </AccordionTrigger>
 
             <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
@@ -374,11 +374,10 @@ console.log(ans)
               actually run.
               <br /> <br />
               2) Web APIs: Web APIs are provided by the browser and are not part
-              of JavaScript. The purpose of Web APIs is to delegate asynchronous
+              of JS. The purpose of Web APIs is to delegate asynchronous
               tasks like setTimeout, fetch requests, DOM events, etc.
               <br /> <br />
-              3) Callback Queue: Once asynchronous tasks are completed, their
-              callbacks wait in the Callback Queue. When the Call Stack becomes
+              3) Callback Queue: Once asynchronous tasks are completed, they wait in the Callback Queue. When the Call Stack becomes
               empty or the thread becomes idle, these callbacks are pulled from
               the Callback Queue and put onto the Call Stack for execution.
               <br />
