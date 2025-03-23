@@ -235,17 +235,16 @@ const JavascriptFoundationsNotes = () => {
               Example:
               <br />
               <div className="overflow-x-auto">
-              <pre>
-                {`
+                <pre>
+                  {`
  const arr = [1, 2, 3, 4, 5];
  function print(element){
  console.log(element);
   }
  arr.forEach(print);
   `}
-              </pre>
+                </pre>
               </div>
-    
               Output:
               <br />
               1
@@ -267,7 +266,8 @@ const JavascriptFoundationsNotes = () => {
               Class in JS ?
             </AccordionTrigger>
             <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
-              A class is a blueprint that defines a reusable structure, which can be used in multiple places.
+              A class is a blueprint that defines a reusable structure, which
+              can be used in multiple places.
               <br />
               Class has two things :
               <br />
@@ -278,8 +278,8 @@ const JavascriptFoundationsNotes = () => {
               <br />
               Example :
               <div className="overflow-x-auto">
-              <pre>
-                {`
+                <pre>
+                  {`
 class Animal {
   constructor(name, speaks) {
     this.name = name;
@@ -294,28 +294,25 @@ class Animal {
 let dog = new Animal("Dog", "bark"); //Creating an object
 dog.speak(); 
 `}
-              </pre>
+                </pre>
               </div>
-            
-
               <br />
               Output : hi there bark
-
             </AccordionContent>
           </AccordionItem>
 
-     {/* Q - 16 */}
-     <AccordionItem value="item-16">
+          {/* Q - 16 */}
+          <AccordionItem value="item-16">
             <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
-            What is Callback Function?
+              What is Callback Function?
             </AccordionTrigger>
 
             <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
-             A Callback Function is a function which is passed as an argument to another function
-          
-             <div className="overflow-x-auto">
-              <pre>
-              {`
+              A Callback Function is a function which is passed as an argument
+              to another function
+              <div className="overflow-x-auto">
+                <pre>
+                  {`
 function square(n){
    return n*n;
 }
@@ -329,8 +326,67 @@ function sumOfSomething(a,b,callback){
 const ans = sumOfSomething(2,2,square);
 console.log(ans)
               `}
-             </pre>
-             </div>
+                </pre>
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+
+          {/* Q - 17 */}
+          <AccordionItem value="item-17">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+              Asynchronous function vs Synchronous function?
+            </AccordionTrigger>
+
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+              Synchronous function <br />
+              1) Synchronous function runs line by line waiting for each task to
+              finish before moving to the next <br /> 2) It means Javascript
+              thread will be busy thats why will not perform any other task.
+              <br />
+              <br />
+              Asynchronous function
+              <br />
+              Asynchronous function runs tasks without waiting, allowing other
+              operations to continue while waiting for a response.
+              <br /> <br />
+              Common Async Functions are : <br />
+              1) setTimeout <br />
+              2) fs.readFile <br />
+              3) Fetch
+            </AccordionContent>
+          </AccordionItem>
+
+          {/* Q - 18 */}
+          <AccordionItem value="item-18">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+            How does JavaScript handle Asynchronous operations?
+            </AccordionTrigger>
+
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+              There are 4 things : <br />
+              Call Stack <br />
+              Web APIs <br />
+              Callback Queue <br />
+              Event Loop <br />
+              <br />
+              1) Call Stack: Every line of code reaches the Call Stack first.
+              The Call Stack is basically what is being put on to the stack to
+              actually run.
+              <br /> <br />
+              2) Web APIs: Web APIs are provided by the browser and are not part
+              of JavaScript. The purpose of Web APIs is to delegate asynchronous
+              tasks like setTimeout, fetch requests, DOM events, etc.
+              <br /> <br />
+              3) Callback Queue: Once asynchronous tasks are completed, their
+              callbacks wait in the Callback Queue. When the Call Stack becomes
+              empty or the thread becomes idle, these callbacks are pulled from
+              the Callback Queue and put onto the Call Stack for execution.
+              <br />
+              <br />
+              4) Event Loop: The Event Loop is responsible for continuously
+              checking the Call Stack and Callback Queue. It checks if there is
+              something in the Callback Queue, and if the Call Stack is empty,
+              it moves the callback from the Callback Queue to the Call Stack.
             </AccordionContent>
           </AccordionItem>
 
