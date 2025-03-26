@@ -359,7 +359,7 @@ console.log(ans)
           {/* Q - 18 */}
           <AccordionItem value="item-18">
             <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
-            How does JS handle Async functions?
+              How does JS handle Async functions?
             </AccordionTrigger>
 
             <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
@@ -374,12 +374,13 @@ console.log(ans)
               actually run.
               <br /> <br />
               2) Web APIs: Web APIs are provided by the browser and are not part
-              of JS. The purpose of Web APIs is to delegate asynchronous
-              tasks like setTimeout, fetch requests, DOM events, etc.
+              of JS. The purpose of Web APIs is to delegate asynchronous tasks
+              like setTimeout, fetch requests, DOM events, etc.
               <br /> <br />
-              3) Callback Queue: Once asynchronous tasks are completed, they wait in the Callback Queue. When the Call Stack becomes
-              empty or the thread becomes idle, these callbacks are pulled from
-              the Callback Queue and put onto the Call Stack for execution.
+              3) Callback Queue: Once asynchronous tasks are completed, they
+              wait in the Callback Queue. When the Call Stack becomes empty or
+              the thread becomes idle, these callbacks are pulled from the
+              Callback Queue and put onto the Call Stack for execution.
               <br />
               <br />
               4) Event Loop: The Event Loop is responsible for continuously
@@ -388,6 +389,32 @@ console.log(ans)
               it moves the callback from the Callback Queue to the Call Stack.
             </AccordionContent>
           </AccordionItem>
+
+          {/* Q - 19 */}
+          <AccordionItem value="item-19">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+              Callback Hell
+            </AccordionTrigger>
+
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+              Callback Hell is a situation where multiple callbacks are nested
+              inside each other, making the code difficult to read, maintain,
+              and debug.
+            </AccordionContent>
+          </AccordionItem>
+
+          {/* Q - 20 */}
+          {/* <AccordionItem value="item-20">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+              Callback Hell
+            </AccordionTrigger>
+
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+              Callback Hell is a situation where multiple callbacks are nested
+              inside each other, making the code difficult to read, maintain,
+              and debug.
+            </AccordionContent>
+          </AccordionItem> */}
 
           {/* The End */}
         </Accordion>
