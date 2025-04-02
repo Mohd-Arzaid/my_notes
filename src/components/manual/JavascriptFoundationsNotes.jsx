@@ -410,10 +410,15 @@ console.log(ans)
             </AccordionTrigger>
 
             <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
-              Promises are syntactical sugar in JavaScript.<br />
-              They are a more readable way to write async functions.<br />
-              When we use callbacks, deeply nested functions can lead to callback hell, making the code hard to read and maintain.<br /><br />
-              Example of callback hell:
+              Promises are syntactical sugar in JavaScript.
+              <br />
+              They are a more readable way to write async functions.
+              <br />
+              When we use callbacks, deeply nested functions can lead to
+              callback hell, making the code hard to read and maintain.
+              <br />
+              <br />
+              Example of Callback hell:
               <div className="overflow-x-auto">
                 <pre>
                   {`
@@ -431,6 +436,27 @@ myOwnSetTimeout(function(){
                 </pre>
               </div>
               To overcome this problem of nested callbacks, we use Promises.
+              <br />
+              <br />
+              <br />
+               ✅ Using Promises to Avoid Callback Hell
+              <div className="overflow-x-auto">
+                <pre>
+                  {`
+function promisifiedMyOwnSetTimeout(duration){
+   const p = new Promise(function(resolve){
+     setTimeout(resolve, duration);
+   });
+   return p;
+}
+
+const ans = promisifiedMyOwnSetTimeout(1000);
+ans.then(function(){
+   console.log("timeout is done");
+})
+              `}
+                </pre>
+              </div>
             </AccordionContent>
           </AccordionItem>
 
