@@ -393,7 +393,7 @@ console.log(ans)
           {/* Q - 19 */}
           <AccordionItem value="item-19">
             <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
-              Callback Hell
+              Callback Hell?
             </AccordionTrigger>
 
             <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
@@ -457,6 +457,32 @@ ans.then(function(){
               `}
                 </pre>
               </div>
+            </AccordionContent>
+          </AccordionItem>
+
+          {/* Q - 21 */}
+          <AccordionItem value="item-21">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+              Async Await?
+            </AccordionTrigger>
+
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            
+              Example:
+              <div className="overflow-x-auto">
+                <pre>
+                  {`
+async function main(){
+    const value = await asyncFn();
+    console.log(value);
+}
+
+main();
+              `}
+                </pre>
+              </div>
+              <br />
+
             </AccordionContent>
           </AccordionItem>
 
