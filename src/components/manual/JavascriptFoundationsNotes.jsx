@@ -404,17 +404,35 @@ console.log(ans)
           </AccordionItem>
 
           {/* Q - 20 */}
-          {/* <AccordionItem value="item-20">
+          <AccordionItem value="item-20">
             <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
-              Callback Hell
+              Promises?
             </AccordionTrigger>
 
             <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
-              Callback Hell is a situation where multiple callbacks are nested
-              inside each other, making the code difficult to read, maintain,
-              and debug.
+              Promises are syntactical sugar in JavaScript.<br />
+              They are a more readable way to write async functions.<br />
+              When we use callbacks, deeply nested functions can lead to callback hell, making the code hard to read and maintain.<br /><br />
+              Example of callback hell:
+              <div className="overflow-x-auto">
+                <pre>
+                  {`
+function myOwnSetTimeout(fn, duration){
+   setTimeout(fn, duration);
+}
+
+myOwnSetTimeout(function(){
+   console.log("log the first thing");
+   myOwnSetTimeout(function(){
+      console.log("log the second thing");
+   }, 2000);
+}, 1000);
+              `}
+                </pre>
+              </div>
+              To overcome this problem of nested callbacks, we use Promises.
             </AccordionContent>
-          </AccordionItem> */}
+          </AccordionItem>
 
           {/* The End */}
         </Accordion>
