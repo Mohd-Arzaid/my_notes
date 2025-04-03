@@ -1,11 +1,13 @@
 import JavascriptFoundationsNotes from "./components/manual/JavascriptFoundationsNotes";
 import { Routes, Route, Link } from "react-router-dom";
 import { Button } from "./components/ui/button";
+import NodejsFoundationsNotes from "./components/manual/NodejsFoundationsNotes";
 function App() {
   return <>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/JavascriptFoundationsNotes" element={<JavascriptFoundationsNotes />} />
+      <Route path="/NodejsFoundationsNotes" element={<NodejsFoundationsNotes />} />
     </Routes>
   </>;
 }
@@ -16,6 +18,9 @@ const Home = () => {
   return <div className="flex flex-col items-center justify-center gap-4 h-screen">
       <Link to="/JavascriptFoundationsNotes">
         <div className="font-geist text-[18px] font-medium underline underline-offset-4">Javascript Foundations Notes</div>
+      </Link>
+      <Link to="/NodejsFoundationsNotes">
+        <div className="font-geist text-[18px] font-medium underline underline-offset-4">Node js Foundations Notes</div>
       </Link>
       
   </div>;

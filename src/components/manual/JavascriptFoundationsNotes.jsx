@@ -438,8 +438,7 @@ myOwnSetTimeout(function(){
               To overcome this problem of nested callbacks, we use Promises.
               <br />
               <br />
-              <br />
-               ✅ Using Promises to Avoid Callback Hell
+              <br />✅ Using Promises to Avoid Callback Hell
               <div className="overflow-x-auto">
                 <pre>
                   {`
@@ -467,7 +466,6 @@ ans.then(function(){
             </AccordionTrigger>
 
             <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
-            
               Example:
               <div className="overflow-x-auto">
                 <pre>
@@ -482,7 +480,6 @@ main();
                 </pre>
               </div>
               <br />
-
             </AccordionContent>
           </AccordionItem>
 
