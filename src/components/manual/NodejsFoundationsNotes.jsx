@@ -35,7 +35,6 @@ const NodejsFoundationsNotes = () => {
               Node.js.
             </AccordionContent>
           </AccordionItem>
-
           {/* Q - 2 */}
           <AccordionItem value="item-2">
             <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
@@ -63,7 +62,6 @@ const NodejsFoundationsNotes = () => {
               3) Status codes <br />
             </AccordionContent>
           </AccordionItem>
-
           {/* Q - 3 */}
           <AccordionItem value="item-3">
             <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
@@ -74,14 +72,52 @@ const NodejsFoundationsNotes = () => {
               2) Does a DNS Lookup (converts google.com to an IP) <br />
               3) Establishes a connection to the IP (does handshake) <br />
               <br />
-               DNS resolution : <br />
+              DNS resolution : <br />
               URLs aur just like contacts in your phone. <br />
               In the end, they map to an IP <br />
               if you ever buy a URL of your own, you will need to point to the
               IP of your server.
             </AccordionContent>
           </AccordionItem>
+          {/* Q - 4 */}
+          <AccordionItem value="item-4">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+              What is Express ?
+            </AccordionTrigger>
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+              Express is a external library that helps to create HTTP servers.
+            </AccordionContent>
+          </AccordionItem>
+          {/* Q - 5 */}
+          <AccordionItem value="item-5">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+              How to create a HTTP server using Express
+            </AccordionTrigger>
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+              <div className="overflow-x-auto">
+                <pre>
+                  {`
+const express = require('express');
+const app = express();
+const port = 3000;
 
+app.get('/',(req,res)=>{
+  res.send('Hello World');
+})
+
+app.listen(port)
+  `}
+                </pre>
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+          {/* Q - 6 */}
+          
+          <AccordionItem value="item-5">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium"></AccordionTrigger>
+
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]"></AccordionContent>
+          </AccordionItem>
           {/* The End */}
         </Accordion>
       </div>
